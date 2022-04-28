@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
         
-    <wb-module deploy-name="LoginLogoutServlet">
+    <wb-module deploy-name="EXP1_LOGIN_LOGOUT_SERVLATE">
                 
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
                 
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <property name="context-root" value="EXP1_LOGIN_LOGOUT_SERVLATE"/>
                 
-        <property name="java-output-path" value="/LoginLogoutServlet/build/classes"/>
-        <property name="context-root" value="LoginLogoutServlet"/>
+        <property name="java-output-path" value="/EXP1_LOGIN_LOGOUT_SERVLATE/build/classes"/>
             
     </wb-module>
     
